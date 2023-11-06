@@ -1,0 +1,105 @@
+
+/*=== CONTACT  ===*/
+.contact-hero {
+    margin-top: -20px;
+    display: -moz-grid;
+    display: -ms-grid;
+    display: -webkit-grid;
+    display: grid;
+    height: 100%;
+    align-items: center;
+  }
+  
+  .contact-hero-text {
+    width: 100%;
+    display: -moz-grid;
+    display: -ms-grid;
+    display: -webkit-grid;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+  
+  .contact-hero-title {
+    margin-top: 3rem;
+    display: -moz-grid;
+    display: -ms-grid;
+    display: -webkit-grid;
+    display: grid;
+    gap: 1rem;
+    color: var(--extra-dark-gray);
+  }
+  
+  .contact-title {
+    line-height: 1;
+  }
+  
+  .contact-subtitle {
+    color: var(--extra-dark-gray);
+    line-height: 1.4;
+    font-weight: 500;
+    max-width: 55ch;
+    margin: auto;
+  }
+  
+  .contact-form-container {
+    margin-top: 2rem;
+    display: -moz-grid;
+    display: -ms-grid;
+    display: -webkit-grid;
+    display: grid;
+    background-color:white;
+    border-radius: var(--radius);
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    box-shadow: var(--light-shadow);
+  }
+  
+  .contact-form {
+    display: -moz-grid;
+    display: -ms-grid;
+    display: -webkit-grid;
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .form-group {
+    display: -moz-grid;
+    display: -ms-grid;
+    display: -webkit-grid;
+    display: grid;
+    gap: 0.4rem;
+  }
+  
+  .form-group label {
+    text-transform: lowercase;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: var(--extra-dark-gray);
+  }
+  
+  .form-group .input {
+    border-radius: 0;
+    border: 0px 0px 1px 0px solid var(--dark-gray);
+    padding-left: 0.1rem;
+    letter-spacing: var(--letter-spacing);
+  }
+  
+  .contact-form button {
+    justify-self: center;
+    align-self: center;
+    border-radius: 22px;
+    box-shadow: var(--light-shadow);
+  }
+  
+  @media screen and (min-width: 992px) {
+    .contact-form-container {
+      margin-top: 4rem;
+    }
+    .contact-hero-text {
+      margin-top: 4rem;
+    }
+  } 
+  

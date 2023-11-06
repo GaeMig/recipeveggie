@@ -1,0 +1,29 @@
+
+.footer {
+    background-color:#99B780;
+    height: 4rem;
+  }
+  
+  .footer-container {
+    display: -moz-grid;
+    display: -ms-grid;
+    display: -webkit-grid;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    font-variant: small-caps;
+    color: var(--extra-dark-gray);
+  }
+  
+  .brand-color {
+    color: var(--extra-dark-gray);
+  }
+  
+  .brand-secondary-color {
+    color: var(--trypan-blue-2);
+  }
+  
+  .footer-text {
+    font-size: 1.03em !important;
+  }
+  
